@@ -8,11 +8,11 @@ public class FizzBuzz {
 		System.out.println("inserisci un numero per far partire il gioco");
 		int userNum = in.nextInt();
 		
+		in.close();
 		if(userNum <= 5) {
 			System.out.println("il numero deve essere maggiore di 5");
 			return;
 		}
-		in.close();
 		for(int i = 1; i <= userNum; i++ ) {
 			
 			String number = null;
